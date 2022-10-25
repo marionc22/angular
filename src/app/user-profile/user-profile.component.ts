@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserProfileComponent implements OnInit {
 
-  hidden: boolean = false
+  hidden: boolean = true
 
   public hide(){
    this.hidden= !this.hidden
